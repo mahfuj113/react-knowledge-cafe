@@ -19,7 +19,6 @@ const handleMarkRead = (id,reading_time) => {
   // remove mark as read
   const remainingBookmarks = bookmarks.filter(bookmark => bookmark.id !== id);
   setBookmarks(remainingBookmarks)
-  console.log(id);
 }
   return (
     <>
